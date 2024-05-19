@@ -8,13 +8,35 @@
   margin-left: auto 
   margin-right: auto
   padding-left: 0
-
+  display: flex
+  justify-content: space-between
   li
     list-style: none
-    font-size: 15px
+    font-size: 14px
+    width: 45% 
+    border: 1px solid #4f9db6
+    background: rgba(#4f9db6, .1)
+    padding: 10px
+    border-radius: 10px
+    height: 100%
+    margin-top: 0 
+    margin-bottom: 0
     span 
       font-weight: 700
-      font-size: 16px
+      font-size: 14px
+      display: block
+      margin-bottom: 3px
+.plus 
+  align-self: center
+  font-size: 26px 
+  font-weight: 700
+  color: #4f9db6
+.discount
+  width: 660px 
+  max-width: 100%
+  margin-left: auto 
+  margin-right: auto
+  text-align: center
 
 html
   font-family: sans-serif
@@ -276,7 +298,8 @@ a:hover
 .sub-title
   text-align: center
   font-size: 16px
-  margin-bottom: 15px
+  margin-bottom: 10px
+  margin-bottom: 10px
 
 .button a
   width: 100%
@@ -399,13 +422,14 @@ a:hover
 
 .list-title
   margin-bottom: 15px
-  font-weight: 700
+  font-weight: 600
   margin-top: 10px
   text-align: center
-  font-size: 18px
+  font-size: 20px
 
 .premium__list li
-  margin: 13px 0
+  margin: 0px 0
+  height: auto
 
 .card-block
   padding: 20px 10px
@@ -489,7 +513,7 @@ a:hover
     width: 100%
 
 .content
-  margin-bottom: 150px
+  margin-bottom: 210px
 
 .terms-wrapper
   font-size: 14px
@@ -511,6 +535,7 @@ a:hover
     font-size: 14px
 .through
   text-decoration: line-through
+  font-weight: 700
 .cancle-link
   text-align: center 
   display: block
@@ -533,7 +558,10 @@ a:hover
 .bold 
   font-weight: 700
 .cta-wrapper 
-  margin-top: 25px
+  margin-top: 0px
+  padding-bottom: 15px
+  .title-m
+    margin-top: 0
 @import "media"
 
 
